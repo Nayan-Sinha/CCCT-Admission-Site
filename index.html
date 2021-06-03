@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CCCT Admission Cell</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <script>
+        $(window).scroll(function() {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </script>
+
+</head>
+
+<!--------------------------------------------------Navigation Pannel------------------------------------------------------>
+
+<body>
+
+    <header class="header">
+        <!--<nav class="navbar navbar-style">-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+                    <a href="#home"><img class="logo" src="img/image/logo1.png"></a>
+
+                </div>
+                <div class="collapse navbar-collapse" id="menu">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#courses">COURSES</a></li>
+                        <li><a href="#criteria">CRITERIA & APPROVAL</a></li>
+                        <!--<li><a href="#admission">ADMISSION</a></li>-->
+                        <li><a href="#campus">CAMPUS PROFILE</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-----------------------------------------------------Navigation Panel End---------------------------------------------->
+
+
+        <!-----------------------------------------------------First Section Starts---------------------------------------------------->
+
+        <section>
+            <div style="background-image: url('img/bag.jpg');">
+                <div id="home" class="section wb"></div>
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-sm-6 banner-info1">
+
+                            <h1 class="big-text"><b> Centre for Computers and Communication Technology</b></h1>
+
+                            <h3>Chisopani, South Sikkim</h3>
+                            <p>Under Directorate of Technical Education,</p>
+                            <p>Education Department, Government of Sikkim</p>
+                            <p>Approved by AICTE, Affiliated to SBTE, Sikkim</p>
+
+                            <a class="btn btn-first" href="https://youtu.be/9wWVlkB6JrE" target="_blank">Take a Tour</a>
+                            <a class="btn btn-second" href="admission.html">Online Admission</a>
+
+
+                        </div>
+
+                        <div class="col-sm-6 banner-image1">
+                            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                            <div class="slideshow-container">
+
+                                <div class="mySlides fade">
+
+                                    <img src="img/college.jpg" style="width:100%">
+                                    <div class="text">Front Face of College</div>
+                                </div>
+
+                                <div class="mySlides fade">
+
+                                    <img src="img/students.jpg" style="width:100%">
+                                    <div class="text">DCST Final year Students Batch 2017</div>
+                                </div>
+
+                                <div class="mySlides fade">
+
+                                    <img src="img/library.jpg" style="width:100%">
+                                    <div class="text">Boy in the Library</div>
+                                </div>
+
+                                <div class="mySlides fade">
+
+                                    <img src="img/dcst.jpg" style="width:100%">
+                                    <div class="text">College Champion DCST Department</div>
+                                </div>
+
+                                <div class="mySlides fade">
+
+                                    <img src="img/dance.jpg" style="width:100%">
+                                    <div class="text">College Cultural Fest</div>
+                                </div>
+
+                                <div class="mySlides fade">
+
+                                    <img src="img/lawn.jpg" style="width:100%">
+                                    <div class="text">College Lawn</div>
+                                </div>
+
+                                <div class="mySlides fade">
+
+                                    <img src="img/faculties.jpg" style="width:100%">
+                                    <div class="text">College Faculties</div>
+                                </div>
+
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            </div>
+                            <br>
+
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                                <span class="dot" onclick="currentSlide(7)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="text-center">
+                    <p style="color:rgba(46, 139, 86, 0.877);"><b> Institute's Vision</b> </h3>
+                <h1 class="text-center"><b><p style="color:rgba(241, 204, 36, 0.829);"> "Techno Education for Global Competence"</h1></center></p></b>
+                    <br><br><br><br>
+        </section>
+
+
+        <!-- Picture Animation Java Script -->
+
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1
+                }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+        </script>
+
+        <!-- End of Picture Animation -->
+
+
+        <!-------------------------------------------------------First Section Ends---------------------------------------------->
+
+
+        <!-------------------------------------------------------Second Section Starts-------------------------------------------------------->
+
+
+
+        <section>
+
+            <div style="background-image: url('img/bg.png');">
+                <!--<div class="py-5">-->
+                <div id="about" class="section wb">
+                    <br><br><br><br>
+                    <h1 class="text-center">
+                        <p style="color:gray;"> <b>About CCCT </b></h1>
+                </div>
+                <br><br>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-6 banner-image2"><br><br>
+                            <img src="img/college1.jpg" class="img-responsive">
+                        </div>
+
+                        <div class="col-sm-6 banner-info2">
+                            <br>
+                            <h4>
+                                <p style="color:orange;">Brief Profile</p>
+                            </h4>
+                            <h5 align="justify">Centre for Computers and Communication Technology(CCCT), situated in Chisopani, South Sikkim is a premier polytechnic setup under World Bank assisted &quot;Third Technician Education Project&quot; of MHRD,Govt. of India in
+                                order to impart technical education in the state during the year 1999. <span id="dots">...</span><span id="more"> Setting up of the polytechnic intend to facilitate the latest technologies and advancement in the
+                                fields to establish the institution as Centre of Excellence. The Diploma curriculum offered by the polytechnic has been framed in consultation with by Nettur Technical Training Foundation(NTTF), Bangalore till 2012 and
+                                now it has been associated with National Institute of Teachers Training and Research(NITTTR) Kolkatta.
+                                <br><br> The diploma issued by CCCT is certified by the Board of Technical Education, Sikkim and are highly valued by major industries within the country and even abroad. The Institute has achieved a milestone of celebrating
+                                Crystal Jubilee with total passing percentage of 75% as an Engineer with approx enrollment of 2500 students. CCCT has also ventured to undertake various MHRD and State Government approved projects to empower the rural youths
+                                in skill development, capacity building and other Industry focused employment avenues. With every successfull year of enrollment, training &amp; learning and placement of students, the Institute believes in holistic development
+                                in terms of attitudinal growth and empower them with latest technology.</span>
+                            </h5>
+                            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+                            <script>
+                                function myFunction() {
+                                    var dots = document.getElementById("dots");
+                                    var moreText = document.getElementById("more");
+                                    var btnText = document.getElementById("myBtn");
+
+                                    if (dots.style.display === "none") {
+                                        dots.style.display = "inline";
+                                        btnText.innerHTML = "Read more";
+                                        moreText.style.display = "none";
+                                    } else {
+                                        dots.style.display = "none";
+                                        btnText.innerHTML = "Read less";
+                                        moreText.style.display = "inline";
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+        </section>
+        <!-------------------------------------------------------Second Section Ends---------------------------------------------->
+
+
+        <!-------------------------------------------------------Third Section Starts---------------------------------------------------->
+        <section>
+            <div style="background-image: url('img/bag.jpg');">
+
+                <div id="courses" class="section wb">
+                    <br><br><br>
+                    <h1 class="text-center"><b><p style="color:dodgerblue;">Courses Offered </p></b></h1>
+                    <br>
+                    <h3 class="text-center">
+                        <p style="color:rgb(11, 58, 102);">( AICTE approved 3 year full time Diploma Engineering ) </p>
+                    </h3>
+
+                    <div class="container">
+
+                        <div class="row">
+                            <br>
+                            <div class="col-sm-6 banner-info3">
+
+                                <h4><b>1. Diploma in Computer Science and Technology (DCST)</b></h4>
+                                <p align="justify">Established in the year 2000 and National Board of Accreditation(NBA) accredited course, it focuses on computer science and information technology principles that are critical while developing software, managing hardware
+                                    and networking of computer systems guided by well trained and qualified faculty members. There is an excellent laboratory and well equipped computing center with high development facilities that caters to the need of
+                                    students and faculty for academics, research initiatives and consultancy.
+                                </p>
+                            </div>
+
+                            <div class="col-sm-6 banner-image3">
+                                <img src="img/lab1.jpg" class="img-responsive">
+                                <br><br><br>
+                            </div>
+
+                            <div class="col-sm-6 banner-image4">
+                                <img src="img/lab2.jpg" class="img-responsive">
+                            </div>
+
+                            <div class="col-sm-6 banner-info4">
+                                <h4><b>2. Diploma in Electrical and Electronics Engeneering (DEEE)</b></h4>
+                                <p align="justify">With a vision "To build a department of global repute for providing technical ability and professional skills in the field of Electrical and Electronics Engineering", it is NBA accredited course for conduction of theory
+                                    and practical classes of power generation, distribution and other industry oriented courses. The department has received various projects from government funding agencies. The department has excellent laboratory and
+                                    well equipped computer center for students, faculty as well as for industrial consultancy work.
+                                </p>
+                                <br><br><br>
+                            </div>
+
+
+                            <div class="col-sm-6 banner-info5">
+                                <h4><b>3. Diploma in Mechanical Engineering (DME)</b></h4>
+                                <p align="justify">Established in the year 2019, the department aims to create mechanical engineers with overall development as required by industry. This program is designed to provide students with the fundamentals of mechanics, production
+                                    and design along with application of engineering concepts, techniques and methods to both system engineering and software design.
+                                </p>
+                            </div>
+
+                            <div class="col-sm-6 banner-image5">
+                                <img src="img/lab3.jpg" class="img-responsive">
+                                <br><br><br>
+                            </div>
+
+                            <div class="col-sm-6 banner-image6">
+                                <img src="img/lab4.jpg" class="img-responsive">
+                            </div>
+
+                            <div class="col-sm-6 banner-info6">
+                                <h4><b>4. Diploma in Electronics and Communication Engineering (DECE)</b></h4>
+                                <p align="justify">The department has competent and experienced faculties with various expertise in core subjects. Students have access to state of art facility to groom them in all recent and upcoming trends in technology. Department aims
+                                    for global repute providing technical ability and professional skills in the field of Electronics & Communication Engineering. Subjects related to electronics system design both in hardware and software in the field
+                                    of communication, power engineering and robotics are imbibed to the students.
+                                </p>
+                                <br><br><br><br><br><br>
+                            </div>
+
+                            <div class="col-sm-6 banner-info7">
+                                <h4><b>5. Diploma in Civil Engineering (DCiE)</b></h4>
+                                <p align="justify">With advanced technology training and teaching in Construction, Hydraulics, Material testing, green technology etc, the department established in the year 2010 has reputed brand equipment and well trained faculty members.
+                                    With a mission to provide technical ability and professional skills in the field of civil engineering, the course has various testing facilities for government and private sector industries.
+                                </p>
+                            </div>
+
+                            <div class="col-sm-6 banner-image7">
+                                <img src="img/lab5.jpg" class="img-responsive">
+                                <br><br><br>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <section>
+
+                <!-------------------------------------------------------Third Section Ends---------------------------------------------------->
+
+
+                <!-------------------------------------------------------Forth Section Starts---------------------------------------------------->
+
+                <section>
+                    <div style="background-image: url('img/bg.png');">
+
+                        <div id="criteria" class="section wb">
+                            <br><br><br><br>
+                            <div class="container">
+
+                                <div class="row">
+                                    <div class="col-sm-6 banner-info8">
+                                        <h2><b><p style="color:blue;">Course Duration and Eligibility</p></b></h2>
+
+                                        <ul>
+                                            <li>3 years after Class X with Maths, Science and English as subjects</li>
+                                            <li>2 years after Class XII Science, Class XII (Vocational), 10+ITI under Lateral Entry Scheme</li>
+                                            <li>Minimum Eligibility: As per AICTE</li>
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="col-sm-6 banner-info9">
+                                        <h2><b><p style="color:blue;">Placement and Higher Study Assistance</p></b></h2>
+                                        <p align="justify">The institute provides 100% placement assistance and support for higher education to qualifying students. The platforms involves pre placement implant training for the period of at least one month during final year.
+                                            Many of our students have taken up higher education in premier institution of India like NERIST, NIT, SMIT and other government & private institution through proper counselling and mentoring done by the cell.
+                                            The Institute has a well-informed Placement Cell, IIPC Cell and Entrepreneurship Development Cell working in tandem to accommodate student for taking up their choice of future avenues. Reputed companies has
+                                            presence of our students like Samsung India, Maruti Suzuki, Dell, IBM, Cognizance, BSNL , State Government Departments like Power & energy, PWD, RMDD, IT etc.
+                                        </p>
+                                        <br>
+                                    </div>
+
+
+                                    <div class="col-sm-6 banner-info10">
+                                        <h2><b><p style="color:blue;">Approval and Certification</p></b></h2>
+
+                                        <ul>
+                                            <li>Approved by AICTE vide F.No. Eastern/1-7011677817/2020/EOA Date: 30-Apr-2020</li>
+                                            <li>National Board of Accreditation (NBA) for DCST and DEEE departments.</li>
+                                            <li>Indian Society for Technical Education (ISTE) faculty and students chapter.</li>
+                                            <li>Member, Computer Society of India (CSI)</li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="col-sm-6 banner-image8">
+                                        <img src="img/image/aff.png" class="img-responsive">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--</section>-->
+
+                            <!-------------------------------------------------------Forth Section Ends---------------------------------------------------->
+
+                            <!-------------------------------------------------------Fifth Section Starts---------------------------------------------------->
+
+                            <!--<section>
+
+                        <div style="background-image: url('img/bg.png');">
+                            <div id="admission" class="section wb">-->
+
+                            <h1 class="text-center">
+                                <p style="color:green;"> <b>Admission For 2020 </b></h1>
+                            <center>
+                                <marquee style="color:red;" width="50%"><b><h3>*** Grab your Seats now ***</h3></b></marquee>
+                            </center>
+                            <br>
+                            <center><img src="img/table.png" class="img-responsive"></center>
+                            <br>
+                            <div class="container">
+                                <h2><b><p style="color: black;"> Fee Structure:</p></b></h2>
+                                <br>
+                                <ol type="A" style="font-weight: bold;">
+                                    <li>
+                                        <span><h4 align="fa-align-justify"><b>Non Payment Seat under State Government notification:</b> As per the notification from Education Department, candidates with valid COI are exempted from paying academic components of fee. However such candidates will have to bear some incidental charges such as Caution deposit, hostel charges, mess charges, examination, uniform, stationaries, transportation etc. </li>
+                                        </h4></span><br>
+                                        <li>
+                                            <span><h4 align="fa-align-justify"> <b>Payment Seat:</b> Students who do not possess COI from within Sikkim or outside will be charged fees as per the fees structure approved by the Education Department.</h4></span>
+                                        </li><br>
+                                        <li>
+                                            <span><h4 align="fa-align-justify"> <b>Tuition Fee waiver (TFW): </b> Supernumerary seat approved by AICTE under EBC category are exempted from paying Tuition fee component only. Remaining components of the fee will have to be paid. However this category is opened only after over 30% of sanctioned seat in the course is filled.</h4></span>
+                                        </li><br>
+                                </ol>
+
+                                <br>
+                                <center><img src="img/fee.png" class="img-responsive"></center>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-------------------------------------------------------Fifth Section Ends---------------------------------------------------->
+
+                <!-------------------------------------------------------Sixth Section Starts---------------------------------------------------->
+                <section>
+
+                    <div style="background-image: url('img/bag.jpg');">
+                        <div id="campus" class="section wb">
+
+                            <h1 class="text-center">
+                                <br><br><br>
+                                <p style="color:rgb(187, 156, 20);"> <b>CCCT Campus Profile </b></h1>
+                            <br>
+                            <div class="container">
+                                <h4 align="justify">CCCT is situated in a 21 acres land of lush green environment with over 11 buildings for academics, hostel for boys and girls, faculty housing, a Multipurpose Hall, Playground, Basket Ball Court, Volley ball & Throw Ball
+                                    court etc... Sikkim Institute of Science and Technology (SIST), Sikkim’s first Government Engineering College, also shares the same campus. Well-equipped laboratories, wireless broadband internet access through high
+                                    range Wi-Fi routers, smart classrooms with Wi-Fi projectors, Laboratories with latest technology enabled software and hardware equipment provide student with the required hands on practical training. At a distance of
+                                    15 Kms from Namchi and 8 Kms from Jorethang, the campus was inaugurated in the year 2007. It has medical emergency dispensary facility with visiting doctor from Namchi District Hospital.</h4>
+                                <h2>
+                                    <br>
+                                    <p style="color:rgb(15, 46, 94);"> <b>Facilities of Co-curricular and extra curricular Activities: </b></h2>
+                                <ol type="1." style="font-weight: bold;">
+
+                                    <li>
+                                        <span><h4 align="fa-align-justify"> <b>Morning Assembly and Uniform: </b> Students wear uniform and perform daily Assembly in the morning with light exercise for day long active brain and even physically. It also encourage students to develop speaking and leadership capabilities with daily thought for the day, talk, symposium and other departmental activities done during this assembly session.</h4>
+                                    </span>
+                                    </li><br>
+
+                                    <li>
+                                        <span><h4 align="fa-align-justify"> <b>Hobby Club and Remedial Classes:  </b> Every department has hobby clubs to execute out of the box thinking and remedial classes are organized for weaker section of the class. </h4>
+                                    </span>
+                                    </li><br>
+
+                                    <li>
+                                        <span><h4 align="fa-align-justify"> <b>Library:</b> With RFID tracking system , there are 10000 books in the Library for use along with various subscribed journal, magazine and newspaper. It is equipped with Learning Resource Utilisation Centre(LRUC) for students to utilize their time in project work, reading & writing, online tutorials and various other hobby works.</h4>
+                                    </span>
+                                    </li><br>
+
+                                    <li>
+                                        <span><h4 align="fa-align-justify"> <b>Multipurpose Hall: </b> It houses open area for event conduction like Seminar, Cultural program,  and indoor games like Table Tennis , Badminton etc.Well lighted and acoustically beautiful hall has volley ball court and college canteen adjacent to it.</h4></span>
+                                    </li><br>
+                                    <li>
+                                        <span><h4 align="fa-align-justify"> <b>Broadband Internet with WiFi Access: </b> Dedicated subscription of broadband Internet from nearest ISP which is made available to students and resident in the campus 24/7 accessed via wired and wireless connection.</h4>
+                                        </span>
+                                    </li><br>
+                                    <li>
+                                        <span><h4 align="fa-align-justify"> <b>Bus Service:  </b> Daily bus service from Namchi to campus accommodates 30 students to comfortably travel from their home and relative.</h4></span>
+                                    </li><br>
+                                    <li>
+                                        <span><h4 align="fa-align-justify"> <b>Sports and Cultural Activities:</b> Annual function of cultural and sports affairs happens each semester to impart holistic personality development.</h4></span>
+                                    </li><br>
+
+                                    </span>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-------------------------------------------------------Sixth Section Ends---------------------------------------------------->
+
+                <!-------------------------------------------------------Seventh Section starts---------------------------------------------------->
+
+
+                <section class="my-5">
+                    <div style="background-image: url('img/bg.png');">
+                        <div id="contact" class="section wb">
+
+                            <h1 class="text-center">
+
+                                <p style="color:rgb(84, 82, 145);"> <b>Contact Us </b></h1>
+                            <br><br>
+                            <div class="container">
+                                <!------------------------------------------------------------------------------------->
+                                <!-- Grid row -->
+                                <div class="row">
+
+                                    <!-- Grid column -->
+                                    <div class="col-lg-5 mb-lg-0 mb-4">
+                                        <br>
+
+                                        <center>
+                                            <h4>Centre For Computer and Communication Technology (CCCT)</h4>
+                                            <br>
+
+                                            <h4>Chisopani, PO Nandugoan, South Sikkim 737126 </h4>
+                                            <br>
+
+                                            <h4>Email: ccct.skmpoly@gmail.com</h4>
+                                            <br>
+
+                                            <h4>Web: www.ccct.skmpoly.edu.in</h4>
+                                            <br>
+
+                                            <h4>Mob: +91 8972184332, +91 9563212020</h4>
+                                            <br>
+                                        </center>
+
+                                    </div>
+                                    <!-- Grid column -->
+
+                                    <!-- Grid column -->
+                                    <div class="col-lg-7">
+
+                                        <!--Google map-->
+                                        <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14201.344841302373!2d88.301781!3d27.14571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e69d6aaaaaaaab%3A0xc50b5b95bd0d05f!2sCentre%20for%20Computers%20and%20Communication%20Technology!5e0!3m2!1sen!2sus!4v1596793202085!5m2!1sen!2sus"
+                                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                        </div>
+                                        <!-- Buttons-->
+                                        <div class="row text-center">
+                                            <div class="col-md-4">
+                                                <a class="btn-floating blue accent-1">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                </a>
+                                                <br>
+                                                <p>South Sikkim, 737126</p>
+                                                <p class="mb-md-0">Sikkim, India</p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <a class="btn-floating blue accent-1">
+                                                    <i class="fas fa-phone"></i>
+                                                </a>
+                                                <br>
+                                                <p>+ 03595 210 145</p>
+                                                <p class="mb-md-0">Mon - Sat, 8:00-17:00</p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <a class="btn-floating blue accent-1">
+                                                    <i class="fas fa-envelope"></i>
+                                                </a>
+                                                <br>
+                                                <p>ccct.skmpoly@gmail.com</p>
+                                                <p class="mb-0">+91 9563212020</p>
+                                            </div>
+                                            <br><br>
+                                        </div>
+
+                                    </div>
+                                    <!-- Grid column -->
+
+                                </div>
+                                <!-- Grid row -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+
+
+                <!-------------------------------------------------------Sixth Section Ends---------------------------------------------------->
+
+                <!-- Footer -->
+                <footer class="page-footer font-small blue">
+
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3">© 2020 Copyright: Centre for Computers and Communication Technology, visit us at
+                        <a href="https://www.ccct.co.in/"> www.ccct.co.in</a>
+                    </div>
+                    <!-- Copyright -->
+
+                </footer>
+                <!-- Footer -->
+            </section>
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
